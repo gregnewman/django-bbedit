@@ -1,0 +1,2 @@
+#INLINE##INDENT#
+#SELSTART#fieldname#SELEND# = models.DecimalField(_('#PLACEHOLDERSTART#name#PLACEHOLDEREND#'), max_digits=$2, decimal_places=$3)

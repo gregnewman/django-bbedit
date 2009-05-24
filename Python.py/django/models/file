@@ -1,0 +1,2 @@
+#INLINE##INDENT#
+#SELSTART#fieldname#SELEND# = models.FileField(_('#PLACEHOLDERSTART#name#PLACEHOLDEREND#'), upload_to="#PLACEHOLDERSTART#path/to/folder#PLACEHOLDEREND#")
