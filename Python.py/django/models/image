@@ -1,0 +1,2 @@
+#INLINE##INDENT#
+#SELSTART#fieldname#SELEND# = models.ImageField(upload_to="#PLACEHOLDERSTART#path/to/upload#PLACEHOLDEREND#", height_field=#PLACEHOLDERSTART#height#PLACEHOLDEREND#, width_field=#PLACEHOLDERSTART#width#PLACEHOLDEREND#)
