@@ -1,0 +1,15 @@
+#INLINE##INDENT#
+class #SELSTART#modelname#SELEND#(models.Model):
+    """#PLACEHOLDERSTART#description...#PLACEHOLDEREND#"""
+    
+ 
+    class Meta:
+        ordering = ['#PLACEHOLDERSTART#order#PLACEHOLDEREND#',]
+        verbose_name, verbose_name_plural = "#PLACEHOLDERSTART#verbosename#PLACEHOLDEREND#", "#PLACEHOLDERSTART#verbosenameplural#PLACEHOLDEREND#"
+ 
+    def __unicode__(self):
+        return "%s" % (self.#PLACEHOLDERSTART#name#PLACEHOLDEREND#)
+ 
+    @models.permalink
+    def get_absolute_url(self):
+        return ('')
