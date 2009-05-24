@@ -1,0 +1,4 @@
+#INLINE##INDENT#
+{% filter #SELSTART#what#SELEND# %}
+  #PLACEHOLDERSTART#...#PLACEHOLDEREND#
+{% endfilter %}

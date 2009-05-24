@@ -1,0 +1,2 @@
+#INLINE##INDENT#
+{% firstof #SELSTART#1#SELEND# %}

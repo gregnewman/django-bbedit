@@ -1,0 +1,2 @@
+#INLINE##INDENT#
+{% extends 'base.html' %}

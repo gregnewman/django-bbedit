@@ -1,0 +1,4 @@
+#INLINE##INDENT#
+{% ifchanged #SELSTART#1#SELEND# %}
+    #PLACEHOLDERSTART#...#PLACEHOLDEREND#
+{% endifchanged %}
