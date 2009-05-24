@@ -1,0 +1,6 @@
+#INLINE##INDENT#
+class #SELSTART#modelname#SELEND#(forms.ModelForm):
+
+
+    class Meta:
+        model = get_model('#PLACEHOLDERSTART#app#PLACEHOLDEREND#', '#PLACEHOLDERSTART#model#PLACEHOLDEREND#')
