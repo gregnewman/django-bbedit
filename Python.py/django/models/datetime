@@ -1,0 +1,2 @@
+#INLINE##INDENT#
+#SELSTART#fieldname#SELEND# = models.DateTimeField(_('#PLACEHOLDERSTART#name#PLACEHOLDEREND#'), blank=True, null=True, auto_now_add=True)

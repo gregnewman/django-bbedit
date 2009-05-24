@@ -1,2 +1,2 @@
-﻿#INLINE##INDENT#
-#SELSTART#fieldname#SELEND# = models.CharField(_(‘#PLACEHOLDERSTART#name#PLACEHOLDEREND#’), max_length=#PLACEHOLDERSTART#length#PLACEHOLDEREND#, blank=True, null=True, help_text=””)
+#INLINE##INDENT#
+#SELSTART#fieldname#SELEND# = models.CharField(_('#PLACEHOLDERSTART#name#PLACEHOLDEREND#'), max_length=#PLACEHOLDERSTART#length#PLACEHOLDEREND#, blank=True, null=True, help_text="")
