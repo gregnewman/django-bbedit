@@ -1,0 +1,4 @@
+#INLINE##INDENT#
+{% blocktrans with #SELSTART#var1#SELEND# as #PLACEHOLDERSTART#var2#PLACEHOLDEREND# %}
+  {{ #PLACEHOLDERSTART#...#PLACEHOLDEREND# }}
+{% endblocktrans %}

@@ -1,0 +1,4 @@
+#INLINE##INDENT#
+{% autoescape #SELSTART#what#SELEND# %}
+  #PLACEHOLDERSTART#...#PLACEHOLDEREND#
+{% endautoescape %}
