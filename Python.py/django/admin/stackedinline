@@ -1,0 +1,5 @@
+#INLINE##INDENT#
+class #SELSTART#modelname#SELEND#Inline(admin.StackedInline):
+    model = #PLACEHOLDERSTART#model#PLACEHOLDEREND#
+    extra = #PLACEHOLDERSTART#...#PLACEHOLDEREND#
+    max_num = #PLACEHOLDERSTART#...#PLACEHOLDEREND#

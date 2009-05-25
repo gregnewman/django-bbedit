@@ -1,0 +1,14 @@
+#INLINE##INDENT#
+class #SELSTART#modelname#SELEND#Admin(admin.ModelAdmin):
+    date_hierarchy = '#PLACEHOLDERSTART#...#PLACEHOLDEREND#'
+    list_display = (#PLACEHOLDERSTART#...#PLACEHOLDEREND#)
+    list_filter = (#PLACEHOLDERSTART#...#PLACEHOLDEREND#)
+    search_fields = [#PLACEHOLDERSTART#...#PLACEHOLDEREND#]
+ 
+    fieldsets = (#PLACEHOLDERSTART#...#PLACEHOLDEREND#)
+    
+    save_as = True
+    save_on_top = True
+    inlines = [#PLACEHOLDERSTART#...#PLACEHOLDEREND#]
+ 
+admin.site.register(#PLACEHOLDERSTART#app#PLACEHOLDEREND#, #PLACEHOLDERSTART#modelname#PLACEHOLDEREND#Admin)

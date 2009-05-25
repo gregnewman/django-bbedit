@@ -1,0 +1,2 @@
+#INLINE##INDENT#
+#SELSTART#fieldname#SELEND# = models.IPAddressField(blank=True)
