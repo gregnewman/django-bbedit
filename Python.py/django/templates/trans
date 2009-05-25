@@ -1,0 +1,2 @@
+#INLINE##INDENT#
+{% trans "#SELSTART#string to translate#SELEND#" %}

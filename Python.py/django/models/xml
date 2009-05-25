@@ -1,0 +1,2 @@
+#INLINE##INDENT#
+#SELSTART#fieldname#SELEND# = models.XMLField(schema_path="#PLACEHOLDERSTART#path/to/schema#PLACEHOLDEREND#", blank=True)
