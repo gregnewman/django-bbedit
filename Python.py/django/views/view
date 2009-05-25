@@ -1,0 +1,12 @@
+#INLINE##INDENT#
+def #SELSTART#name#SELEND#(request):
+    """
+    #PLACEHOLDERSTART#description#PLACEHOLDEREND#
+
+    """
+
+    #PLACEHOLDERSTART#...#PLACEHOLDEREND#
+
+    return render_to_response("#PLACEHOLDERSTART#template#PLACEHOLDEREND#",
+                              {'#PLACEHOLDERSTART#context#PLACEHOLDEREND#':#PLACEHOLDERSTART#context#PLACEHOLDEREND#},
+                              context_instance=RequestContext(request))
